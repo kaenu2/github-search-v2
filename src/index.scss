@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+input {
+	background: none;
+	border: 1px solid #262c33;
+	color: inherit;
+	&:focus {
+		outline: none;
+	}
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	font-size: 14px;
+	color: #e6edf3;
+	background-color: #0d1117;
+}
+
+.MuiButton-contained {
+	background-color: #21262d !important;
+}
+
+.MuiContainer-maxWidthXl {
+	border-left: 1px solid #262c33;
+	border-right: 1px solid #262c33;
+	min-height: 100vh;
+}
